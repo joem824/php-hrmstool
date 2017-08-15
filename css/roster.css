@@ -1,0 +1,24 @@
+#tblRoster {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tblRoster th, #tblRoster td {
+	border: 1px solid black;
+}
+
+#tblRoster thead tr:nth-child(1) th {
+	background-color: #0f243e; 
+	color: #fff; 
+	text-align: center;
+}
+
+#tblRoster thead tr:nth-child(2) th {
+	background-color: #4f81bd; 
+	color: #fff; 
+	text-align: center;
+}
+
+#tblRoster tbody tr td {
+	text-align: center;
+}
